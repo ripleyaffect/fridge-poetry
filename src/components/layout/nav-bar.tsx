@@ -2,14 +2,14 @@
 
 import { FC } from 'react';
 import { ThemeToggle } from '~/components/theme/theme-toggle';
-import { Sparkles } from 'lucide-react';
+import { Pen, Sparkles } from 'lucide-react';
 
 const Logo: FC = () => {
   return (
     <span className="flex">
-      <Sparkles />
+      <Pen />
       <span className="ml-2 font-semibold">
-        Ripley
+        Fridge Poetry
       </span>
     </span>
   )

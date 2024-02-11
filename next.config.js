@@ -1,8 +1,12 @@
-const transpilePackages = []
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages,
+  output: 'export',
+
+  basePath: '/fridge-poetry',
+
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
